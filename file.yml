@@ -5,4 +5,3 @@
     file: path=/home/batch-26.txt state=touch
 i am not sure what to write here
   - name: Add content to the file
-    lineinfile:
