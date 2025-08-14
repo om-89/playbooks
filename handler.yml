@@ -12,4 +12,7 @@
    handlers:
      - name: restart_httpd
        become: true
-       service
+       service :
+         name: httpd
+         state: restarted
+         enabled: true
